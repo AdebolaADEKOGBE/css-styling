@@ -1,0 +1,50 @@
+body{
+    background-image:url("./youzi-lin-bcBNBdzcq2k-unsplash.jpg");
+    background-repeat: no repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Desecendant Combinator */
+.box p{
+ color: pink;
+}
+
+/* child combinator */
+
+section > p{
+    color: purple;
+}
+
+p + section{
+    background-color: blanchedalmond;
+}
+
+#text{
+
+    background-color: #CF1D1D;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    width: fit-content;
+
+}
+#text:hover{
+    background-color: #832626;
+    height: 50px;
+    color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.para{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 15px;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+    padding-right: 15px;
+
+ 
+}
