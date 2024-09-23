@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  color: white;
+
+  position: relative;
+  font-family: "Helvetica Neue", sans-serifn !important;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: white;
+  color: black;
+  justify-content: space-between;
+  z-index: 10;
+  padding: 0.5rem 2rem;
+  flex-wrap: wrap;
+
+  border-bottom: 2px solid gainsboro;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+}
+button {
+  font-size: 18px;
+  border: 1px solid black;
+  padding: 5px 20px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.logo {
+  height: 50px;
+}
+
+main {
+  margin-top: 7rem;
+  color: #000;
+  position: relative;
+}
+
+.mainImage {
+  width: 100%;
+}
+h1 {
+  position: absolute;
+  right: 23%;
+  font-size: 80px;
+  top: -30px;
+}
+
+p {
+  position: absolute;
+  right: 12%;
+  top: 188px;
+  display: flex;
+  width: 45%;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.trinity {
+  position: absolute;
+  right: 28%;
+  top: 359px;
+  display: flex;
+  width: fit-content;
+  background-color: #fafafa;
+  border-radius: 90px;
+  padding: 10px;
+  align-items: center;
+  height: fit-content;
+  justify-content: center;
+  border: 1px solid #e0e0e0;
+  gap: 8px;
+}
+
+.trinityImage {
+  height: 50px;
+}
+
+.trinityTexts > h6 {
+  font-size: 30px;
+  margin: 0;
+}
+
+#happy {
+  position: static;
+  margin: 0;
+  font-size: 12px;
+  width: 100%;
+}
+
+#floatCard {
+  position: absolute;
+  height: 18rem;
+  bottom: 17%;
+  left: 3%;
+}
+
+#vegitable {
+  position: absolute;
+  bottom: 12%;
+  height: 4rem;
+  left: 37%;
+}
+
+#organicPurity {
+  position: absolute;
+  bottom: 19%;
+  height: 4rem;
+  left: 68%;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 28% 68%;
+  justify-content: space-between;
+  margin: 50px 5%;
+  position: relative;
+  z-index: 1000;
+}
+
+.footerleft {
+  background-color: #090909;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.footerleft h3 {
+  color: white;
+  font-size: 27px;
+  line-height: 2.25rem;
+  font-weight: 500;
+}
+
+.footerleft p {
+  color: #fffc;
+  font-weight: 300;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  margin-top: 12px;
+  margin-bottom: 19px;
+  position: static !important;
+  width: 100% !important;
+}
+
+.footerleft button {
+  background-color: rgb(253, 244, 244);
+  border: none;
+  border-radius: 100px;
+  padding: 0.75rem i.5rem;
+  display: flex; 
+}
+.footerright {
+  background-color: #f4f4f4;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footerlinks {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footerlinks p {
+  position: static;
+  width: 100% !important;
+  color: #09090966;
+}
+
+.footerlinks div {
+  color: #090909cc;
+}
+
+.maindiv {
+  display: flex;
+  gap: 5rem;
+}
+
+#arrow{
+  background-color: rgb(251, 250, 247);
+  color: #000;
+  border-radius: 100%;
+  align-self: center;
+}
+
+.arrows{
+  display: flex;
+}
+
+.button{
+  align-self: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

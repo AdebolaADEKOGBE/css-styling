@@ -1,0 +1,53 @@
+/* Hero Section */
+.hero {
+    background-image: url('path/to/your/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+}
+
+.hero-content .btn {
+    margin-top: 1rem;
+}
+
+/* Menu Section */
+.menu-item .card {
+    border: none;
+}
+
+.menu-item .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* About Us Section */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+.footer {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
